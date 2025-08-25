@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas Mahasiswa</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.0/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+  <div id="tsparticles"></div>
+
+  <!-- 🔹 Splash Screen -->
+  <div id="splash">
+    <h1 id="typing"></h1>
+  </div>
+
+  <!-- 🔹 Navbar -->
+  <nav class="navbar fade-zoom">
+    <div class="nav-brand">📘 Kelas Mahasiswa</div>
+    <button class="nav-toggle" id="navToggle">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#pj-kelas">PJ Kelas</a></li>
+      <li><a href="#pj-matkul">PJ Matkul</a></li>
+      <li><a href="#jadwal">Jadwal</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🔹 Header -->
+  <header class="header fade-zoom">
+    <h1 class="glow-text">📘 Kelas Mahasiswa</h1>
+    <p>Informasi Penanggung Jawab, Mata Kuliah, Jadwal, dan Ruangan</p>
+  </header>
+
+  <!-- 🔹 Konten -->
+  <main class="container">
+    <section id="pj-kelas" class="card">
+      <h2>👤 Penanggung Jawab Kelas</h2>
+      <p>Nama: Wishang Sakti Harsono</p>
+    </section>
+
+    <section id="pj-matkul" class="card">
+      <h2>📚 PJ Mata Kuliah</h2>
+      <ul>
+        <li>Pancasila – JOISH & HENDRI </li>
+        <li>Aljabar Linier & Matriks – DHEA & DWI</li>
+        <li>Etika Profesi – YUSUF & TRI OKTA</li>
+        <li>Interaksi Manusia & Komputer – NAJWAN & NILA</li>
+        <li>Arsitektur & Organisasi Komputer – YESICA & ANGGITO</li>
+        <li>Matematika – ANDREW & RENDY</li>
+        <li>Pemograman Dasar – MAKSIMA & GEACEALISA</li>
+      </ul>
+    </section>
+
+    <section id="jadwal" class="card">
+      <h2>🗓️ Jadwal Kuliah</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Mata Kuliah</th>
+            <th>Hari & Jam</th>
+            <th>Ruangan</th>
+          </tr>
+        </thead>
+        <tbody>
+                    <td>Pancasila</td>
+            <td>Senin
+              10:20-12:00
+            </td>
+            <td>VIRTUAL
+            </td>
+          </tr>
+          <tr>
+            <td>Aljabar Linier & Matriks</td>
+            <td>Selasa
+              15:30-18:00
+            </td>
+            <td>MG1.01.07</td>
+          </tr>
+          <tr>
+            <td>Etika Profesi</td>
+            <td>Rabu 
+              10:20-12:00
+            </td>
+            <td>MG1.04.02
+            </td>
+          </tr>
+          <tr>
+            <td>Interaksi Manusia & Komputer</td>
+            <td>Rabu
+              13:00-15:30
+            </td>
+            <td>VIRTUAL</td>
+            <tr>
+            <td>Arsitektur & Organisasi Komputer</td>
+            <td>Kamis
+              09:30-12:00
+            </td>
+            <td>VIRTUAL
+            </td>
+          </tr>
+          <tr>
+            <td>Matematika</td>
+            <td>Kamis
+              13:00-15:30
+            </td>
+            <td>MG1.01.07
+            </td>
+          </tr>
+          <tr>
+            <td>Pemograman Dasar</td>
+            <td>Jumat
+              13:50-16:20
+            </td>
+            <td>L.KOM MG1.04.08
+            </td>
+          </tr>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
